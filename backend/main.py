@@ -55,7 +55,7 @@ class UserInput(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"status": "MockMate Backend Online 🟢", "brain": "Gemini 2.5", "voice": "ElevenLabs"}
+    return {"status": "EchoJob-AI Ready 🟢", "brain": "Gemini 2.5", "voice": "ElevenLabs"}
 
 @app.post("/chat")
 async def chat_endpoint(user_input: UserInput):
@@ -66,7 +66,7 @@ async def chat_endpoint(user_input: UserInput):
         # 1. GEMINI PIENSA 🧠
         # Le damos un "System Prompt" para que actúe como reclutador
         prompt_sistema = """
-        Eres un reclutador de Google amable y profesional. Estás entrevistando al usuario.
+        Eres EchoJob, un reclutador experto de Google amable y profesional. Estás entrevistando al usuario.
         Tu objetivo es evaluar sus habilidades técnicas y blandas.
         
         Instrucciones:

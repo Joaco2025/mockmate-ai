@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "echojob-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^1.13.2",
     "framer-motion": "^12.23.25",
+    "lucide-react": "^0.559.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
